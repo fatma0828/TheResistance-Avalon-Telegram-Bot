@@ -9,6 +9,7 @@ Telegram bot for hosting The Resistance: Avalon games made with the python-teleg
 4. Deploy on server.
 
 (Optional) Edit gamemsg.py to change the game text.
+
 (Optional) Change the images in the /img folder to change game images.
 
 # Game rules
@@ -17,12 +18,19 @@ Or, visit https://www.ultraboardgames.com/avalon/game-rules.php
 
 # Commands
 /newgame - Start a new game in the current group
+
 /startgame - Begin the game when there are enough players
+
 /endgame - End the game when it is stuck or when it is over
+
 /genrules - Show the rules of the game
+
 /rolerules - Show the functions of all roles
+
 /rolecons - Show the distribution of roles for different number of players
+
 /checkvote - Show the current voting status of the current round, to check who has not voted yet (once per round)
+
 
 # Disclaimer
 This bot was built for educational purposes. The right to all characters and gameplay mechanisms belong to the original owner of the game. Also, this bot has only been tested on Heroku; connection methods may differ for other service hosts.
