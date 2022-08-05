@@ -16,6 +16,11 @@ Telegram bot for hosting The Resistance: Avalon games made with the python-teleg
 Use the /genrules command to invoke game rules message.
 Or, visit https://www.ultraboardgames.com/avalon/game-rules.php
 
+# Known issue(s)
+
+Anonymous mode for admins is not recommended for players. Some commands may not work as intended when the sender is an anonymous admin.
+
+
 # Commands
 /newgame - Start a new game in the current group
 
