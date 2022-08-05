@@ -28,20 +28,27 @@ Or, visit https://www.ultraboardgames.com/avalon/game-rules.php
 This bot was built for educational purposes. The right to all characters and gameplay mechanisms belong to the original owner of the game. Also, this bot has only been tested on Heroku; connection methods may differ for other service hosts.
 
 # Screenshots
-![image](https://user-images.githubusercontent.com/70230072/183017521-c4706fc3-e566-440e-bdc5-1cb542e57e0e.png)
+
 /rolerules
 
-![image](https://user-images.githubusercontent.com/70230072/183018102-ffe38199-9479-4565-a2bf-f07afebbabf6.png)
+![image](https://user-images.githubusercontent.com/70230072/183017521-c4706fc3-e566-440e-bdc5-1cb542e57e0e.png)
+
 /newgame
 
-![image](https://user-images.githubusercontent.com/70230072/183018343-2fb848b6-5daf-4963-a034-366d574491fb.png)
+![image](https://user-images.githubusercontent.com/70230072/183018102-ffe38199-9479-4565-a2bf-f07afebbabf6.png)
+
 Entering /startgame invokes the role assignment function, which then notifies players of their roles in private message.
 
-![image](https://user-images.githubusercontent.com/70230072/183018713-c20dd707-2add-482e-be0b-c02e2ee1a04e.png)
+![image](https://user-images.githubusercontent.com/70230072/183018343-2fb848b6-5daf-4963-a034-366d574491fb.png)
+
 Messages in main chat will show instructions to proceed.
 
-![image](https://user-images.githubusercontent.com/70230072/183018925-aa739a0b-b64a-48b9-9777-a64d81b142a7.png)
+![image](https://user-images.githubusercontent.com/70230072/183018713-c20dd707-2add-482e-be0b-c02e2ee1a04e.png)
+
 Selecting players for a Round - journey
 
-![image](https://user-images.githubusercontent.com/70230072/183019324-5691bbd3-1498-4179-9601-ab4a4c2009fb.png)
+![image](https://user-images.githubusercontent.com/70230072/183018925-aa739a0b-b64a-48b9-9777-a64d81b142a7.png)
+
 Voting for the success of a journey
+
+![image](https://user-images.githubusercontent.com/70230072/183019324-5691bbd3-1498-4179-9601-ab4a4c2009fb.png)
