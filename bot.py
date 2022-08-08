@@ -441,7 +441,7 @@ def journeyresult(update, context):
         cbq.bot.send_animation(chatid, open(Resgif, 'rb'), 
                                caption = "Round "+str(thisGame.round)+" Result:" + '\n' +
                                        msg.journeywin+': ' + str(numYes) + '\n' +
-                                       msg.journeylost+' ' + str(numNo) + '\n\n' +
+                                       msg.journeylost+': ' + str(numNo) + '\n\n' +
                                        msg.journeyname + [msg.journeylost,msg.journeywin][jourRes])
         thisGame.recround(['Lost','Win'][jourRes])
         
@@ -568,7 +568,6 @@ def endgame(update, context):
     if chatid not in CurrentGames:
         update.message.reply_text(msg.nogame)
         return
-    
     if user in CurrentGames[chatid].Players:
         keyboard = [[InlineKeyboardButton(text="END THE GAME", callback_data="EndGame: Yes")],
                     [InlineKeyboardButton(text="NO", callback_data="EndGame: No")]]
@@ -599,7 +598,7 @@ def clearboard(update, context):
 def rolelist(update, context):
     chatid = str(update.message.chat.id)
     username = str(update.message.from_user.username)
-    if username != 'deepsleepdoggo':
+    if username != 'insertadminnamehere':
         update.message.reply_text("This command is for testing only.")
         return
         
@@ -629,13 +628,11 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("playerlist", playerlist))
     dp.add_handler(CommandHandler("battle", setround))
-    dp.add_handler(CommandHandler("rolelist", rolelist))
     dp.add_handler(CommandHandler("endgame", endgame))
     dp.add_handler(CommandHandler("genrules", genrules))
     dp.add_handler(CommandHandler("rolerules", rolerules))
     dp.add_handler(CommandHandler("rolecons", rolecons))
     dp.add_handler(CommandHandler("checkvote", checkvote))
-    dp.add_handler(CommandHandler("forcefinal", forcefinal))
     
 
     updater.start_webhook(listen="0.0.0.0",
